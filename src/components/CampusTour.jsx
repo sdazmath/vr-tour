@@ -3,10 +3,10 @@ import React, { useState } from 'react';
 
 const scenes = {
   campus1: {
-    image: '/1.jpeg',
+    image: '/entrance.jpg',
     links: [
       {
-        position: '2 1 -3',
+        position: '-15 1 -1',
         rotation: '0 0 0',
         label: 'Library',
         target: 'campus2'
@@ -14,16 +14,115 @@ const scenes = {
     ]
   },
   campus2: {
-    image: '/2.jpeg',
+    image: '/entrance2.jpg',
     links: [
       {
-        position: '-2 1 -3',
+        position: '2 2 -7',
+        rotation: '0 0 0',
+        label: 'Main ',
+        target: 'campus3'
+      }
+    ]
+  },
+  campus3: {
+    image: '/campus.jpg',
+    links: [
+      {
+        position: '2.8 0 -7',
+        rotation: '0 0 0',
+        label: 'Main ',
+        target: 'campus4'
+      }
+    ]
+  },
+  campus4: {
+    image: '/dept.jpg',
+    links: [
+      {
+        position: '-2 2 -6',
+        rotation: '0 0 0',
+        label: 'Main ',
+        target: 'campus5'
+      }
+    ]
+  },
+  campus5: {
+    image: '/classroom.jpg',
+    links: [
+      {
+        position: '-6.6 2.5 -6',
+        rotation: '0 0 0',
+        label: 'Main ',
+        target: 'campus6'
+      }
+    ]
+  },
+  campus6: {
+    image: '/lab.jpg',
+    links: [
+      {
+        position: '-6.6 2.5 -6',
+        rotation: '0 0 0',
+        label: 'Main ',
+        target: 'campus7'
+      }
+    ]
+  },
+  campus7: {
+    image: '/quad.jpg',
+    links: [
+      {
+        position: '-4 1 -6',
+        rotation: '0 0 0',
+        label: 'Main ',
+        target: 'campus8'
+      }
+    ]
+  },
+  campus8: {
+    image: '/canteen.jpg',
+    links: [
+      {
+        position: '-0.5 2.5 -6',
+        rotation: '0 0 0',
+        label: 'Main ',
+        target: 'campus9'
+      }
+    ]
+  },
+  campus9: {
+    image: '/quad.jpg',
+    links: [
+      {
+        position: '8 0 5',
+        rotation: '0 0 0',
+        label: 'Main ',
+        target: 'campus10'
+      }
+    ]
+  },
+  campus10: {
+    image: '/library.jpg',
+    links: [
+      {
+        position: '-10 2 3',
+        rotation: '0 0 0',
+        label: 'Main ',
+        target: 'campus11'
+      }
+    ]
+  },
+  campus11: {
+    image: '/tq1.png',
+    links: [
+      {
+        position: '-8 0 5',
         rotation: '0 0 0',
         label: 'Main ',
         target: 'campus1'
       }
     ]
-  }
+  },
 };
 
 const CampusTour = () => {
